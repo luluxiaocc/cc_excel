@@ -1,0 +1,21 @@
+.row {
+    position: sticky;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: baseline;
+    left: 0;
+    z-index: 2;
+    &-li {
+        color: #888888;
+        text-align: center;
+        background-color: #FAFAFA;
+        border-right: 1px solid #D8DADE;
+        border-bottom: 1px solid #D8DADE;
+        width: 50px;
+        height: 23px;
+        flex-shrink: 0;
+        font-size: 12px;
+        line-height: 23px;
+    }
+}

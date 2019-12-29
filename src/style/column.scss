@@ -1,0 +1,21 @@
+.column {
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    top: 0;
+    margin-left: 50px;
+   z-index: 2;
+    &-li {
+        color: #888888;
+        text-align: center;
+        background-color: #FAFAFA;
+        border-right: 1px solid #D8DADE;
+        border-bottom: 1px solid #D8DADE;
+        width: 100px;
+        height: 18px;
+        flex-shrink: 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

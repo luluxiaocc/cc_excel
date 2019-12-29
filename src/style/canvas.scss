@@ -1,0 +1,10 @@
+.canvas {
+    display: inline-block;
+    width: 0px;
+    #cc-canvas {
+        position: absolute;
+        top: 18px;
+        left: 50px;
+        transform: translate(-1px,-1px);
+    }
+}

@@ -1,0 +1,30 @@
+.excel {
+    position: relative;
+    border: 1px solid #DCDCDC;
+    width: 100%;
+    height: 600px;
+    overflow: auto;
+    &-header {
+        color: #888888;
+        position: absolute;
+        text-align: center;
+        background-color: #FAFAFA;
+        border-right: 1px solid #D8DADE;
+        border-bottom: 1px solid #D8DADE;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        width: 50px;
+        height: 18px;
+        flex-shrink: 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    &-wrap {
+        overflow: auto;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+}
